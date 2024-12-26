@@ -38,8 +38,7 @@ module.exports = {
             #swagger.summary = "Create Pizza"
         */
 
-    // console.log('file', req.file) // upload.single()
-    // console.log('files', req.files) // upload.array() || upload.any()
+    
 
     req.body.images = []
     if (req.files) {

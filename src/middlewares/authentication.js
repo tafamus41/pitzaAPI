@@ -18,7 +18,7 @@ module.exports = async (req, res, next) => {
       const tokenData = await Token.findOne({ token: tokenKey[1] }).populate(
         "userId"
       );
-      // console.log(tokenData);
+      
       if (tokenData) req.user = tokenData.userId;
 
     } else if (tokenKey[0] == 'Bearer') {
@@ -37,7 +37,7 @@ module.exports = async (req, res, next) => {
 
 
 
-  // console.log("---------", req.user);
+ 
   next();
 
 };

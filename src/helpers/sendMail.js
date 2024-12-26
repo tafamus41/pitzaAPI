@@ -37,7 +37,7 @@ module.exports = function (to, title, message) {
     //     pass: 'Dz5ArmcywUcbjTVHY2'
     //   }
     // })
-    // // console.log(transporter)
+    
 
     // // SendMail:
     // transporter.sendMail({
@@ -50,9 +50,7 @@ module.exports = function (to, title, message) {
 
     // }, function(error, success) {
 
-    //   success ? console.log('SUCCESS:', success) : console.log('ERROR:', error)
-
-    // })
+   
 
     //* GoogleMail (gmail.com)
     //* Google -> AccountHome -> Security -> Two-Step-Verify -> App-Passwords

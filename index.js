@@ -52,8 +52,7 @@ app.use(require("./src/middlewares/queryHandler"));
 
 // const nodemailer = require('nodemailer')
 
-// Create a new Test Account (fake email):
-// nodemailer.createTestAccount().then((data => console.log(data)))
+
 /*
 {
   user: 'exoe2cg3fxqstvtf@ethereal.email',
@@ -77,7 +76,7 @@ app.use(require("./src/middlewares/queryHandler"));
 //     pass: 'Dz5ArmcywUcbjTVHY2'
 //   }
 // })
-// // console.log(transporter)
+
 
 // // SendMail:
 // transporter.sendMail({
@@ -90,7 +89,7 @@ app.use(require("./src/middlewares/queryHandler"));
 
 // }, function(error, success) {
 
-//   success ? console.log('SUCCESS:', success) : console.log('ERROR:', error)
+
 
 // })
 
@@ -122,7 +121,7 @@ app.use(require("./src/middlewares/queryHandler"));
 //   html: '<h2>Hello there.</h2> <p>How are you?</p>', // Mail içeriği (Düz metin)
 
 // }, function(error, success) {
-//   success ? console.log('SUCCESS:', success) : console.log('ERROR:', error)
+//   
 // })
 
 /* ------------------------------------------------------- */
