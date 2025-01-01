@@ -6,7 +6,7 @@ const { BadRequestError } = require("../errors/customError");
 // User Controller:
 
 const User = require("../models/user");
-const sendMail = require('../helpers/sendMail')
+// const sendMail = require('../helpers/sendMail')
 
 module.exports = {
   list: async (req, res) => {
@@ -51,18 +51,18 @@ module.exports = {
     const data = await User.create(req.body);
 
     // SendMail:
-    sendMail(
+    // sendMail(
       // Mail kime gönderilecek:
-      data.email,
+      // data.email,
       // Mail başlığı:
-      'Welcome to our system',
+      // 'Welcome to our system',
       // Mail içeriği:
-      `
-          <h1>Welcome</h1>
-          <h2>${data.username}</h2>
-          <p>Welcome to our system</p>
-      `
-    )
+      // `
+          // <h1>Welcome</h1>
+          // <h2>${data.username}</h2>
+          // <p>Welcome to our system</p>
+      // `
+    // )
 
     res.status(201).send({
       error: false,

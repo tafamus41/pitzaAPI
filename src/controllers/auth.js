@@ -55,13 +55,13 @@ module.exports = {
 
     /* JWT */
     // ACCESS TOKEN:
-    const accessData = {
-      _id: user._id,
-      username: user.username,
-      email: user.email,
-      isActive: user.isActive,
-      isAdmin: user.isAdmin,
-    }
+    // const accessData = {
+    //   _id: user._id,
+    //   username: user.username,
+    //   email: user.email,
+    //   isActive: user.isActive,
+    //   isAdmin: user.isAdmin,
+    // }
     // Convert to JWT:
     // jwt.sign(payload, key, { expiresIn: '30m' })
     // const accessToken = jwt.sign(accessData, process.env.ACCESS_KEY, { expiresIn: '30m' })
