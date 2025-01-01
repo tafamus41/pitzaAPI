@@ -27,7 +27,7 @@ module.exports = async (req, res, next) => {
       // JWT Decode & Verify:
       jwt.verify(tokenKey[1], process.env.ACCESS_KEY, function(error, accessData) {
         
-        console.log(accessData)
+        // console.log(accessData)
         if (accessData) req.user = accessData
 
       })

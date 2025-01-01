@@ -37,8 +37,8 @@ const upload = multer({
 router.route('/')
     .get(pizza.list)
     // .post(pizza.create)
-    // .post(upload.single('image'), pizza.create) // Tek dosya izin ver
-    .post(upload.array('image'), pizza.create) // Çok dosya izin ver. Tavsiye.
+    .post(upload.single('image'), pizza.create) // Tek dosya izin ver
+    // .post(upload.array('image'), pizza.create) // Çok dosya izin ver. Tavsiye.
     // .post(upload.any(), pizza.create) // Çok dosya izin ver, fieldname önemsiz.
 
 router.route('/:id')

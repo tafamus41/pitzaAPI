@@ -109,7 +109,7 @@ module.exports = {
     if (refreshToken) {
 
       const refreshData = jwt.verify(refreshToken, process.env.REFRESH_KEY)
-      console.log(refreshData)
+      // console.log(refreshData)
 
       if (refreshData) {
 
