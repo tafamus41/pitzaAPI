@@ -57,8 +57,8 @@ module.exports = function (to, title, message) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'qadir@clarusway.com',
-        pass: 'fqky kolp zjdq aozd'
+        user: 'seyranmustafa4@gmail.com',
+        pass: 'lvpq hqkz ufee vpje'
       }
     })
 
@@ -73,7 +73,7 @@ module.exports = function (to, title, message) {
 
     transporter.sendMail({
 
-      from: 'qadir@clarusway.com', // tavsiye: gönderen mail adresinin from içinde belirtilmesidir.
+      from: 'seyranmustafa4@gmail.com', // tavsiye: gönderen mail adresinin from içinde belirtilmesidir.
       to: to, // 'abc@xyz.com, def@xyz.com'
       subject: title, // Mail başlığı
       text: message, // Mail içeriği (Düz metin)
